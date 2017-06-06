@@ -22,8 +22,6 @@ class App
 
         Request::init(file_get_contents($confDir . '/routes.json'));
         
-        var_dump(Request::get());
-
         self::loadResquestedPage();
     }
 
