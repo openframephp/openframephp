@@ -1,0 +1,17 @@
+{
+    "name": "openframephp",
+    "authors": [
+        {
+            "name": "Leandro de Amorim",
+            "email": "openframephp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenFrame\\Core\\": "src/Core"
+        }
+    }
+}
